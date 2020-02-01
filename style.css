@@ -1,0 +1,69 @@
+@charset "UTF-8";
+@import 'https://fonts.googleapis.com/css?family=Abel'; 
+
+html
+{
+    font-size: 62.5%;
+}
+
+body
+{
+    font-family: '游ゴシック', YuGothic, 'メイリオ', Verdana, 'Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
+    font-size: 1.4rem;
+    line-height: 1.6;
+    letter-spacing: .1em;
+    color: #4c4c4c;
+    background-color: #fdfcf6;
+}
+
+.buk{
+    background-image: url("./images/img_tanbo.jpg");
+   
+    height:500px;
+      max-width:100%;            
+ background-size:cover;
+    background-position: center center;
+    
+}
+   
+   .mmm{
+      background-color: skyblue;
+       height:500px;
+   }
+   
+    .mmm h2 {
+        text-align: center;
+    　　font-size: 2.5rem;
+    　　padding: 10px;
+    }
+    
+    .tre{
+        border: 2px solid ;
+    
+        background-color: #fdfcf6
+       
+    }
+    
+    .iro{
+        border: 2px solid ;
+        
+       background-color: #F5F8FF
+       
+    }
+    
+    .onaji{
+        width: 33.33%;
+        display: flex;
+    flex-direction: column;
+        margin: 3px;
+        
+    }
+    
+    .zen{
+        display: flex;
+        margin:3px;
+    }
+    
+    #fo{
+        height: 50px;
+    }
